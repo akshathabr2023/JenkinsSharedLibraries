@@ -14,6 +14,6 @@ def call(String mavenGoal){
      }
    else if ("${mavenGoal}" == "Package")
       {
-        bat "$mavenHome/bin/mvn clean package"
+        bat "mvn clean package"
      }
 }
