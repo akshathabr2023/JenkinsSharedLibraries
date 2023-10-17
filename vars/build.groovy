@@ -10,7 +10,7 @@ def call(String mavenGoal){
      }
   else if ("${mavenGoal}" == "Test")
      {
-       sh "mvn clean test"
+       bat "mvn clean test"
      }
    else if ("${mavenGoal}" == "Package")
       {
